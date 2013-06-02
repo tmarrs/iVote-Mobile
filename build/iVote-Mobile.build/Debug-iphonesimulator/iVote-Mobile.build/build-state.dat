@@ -1,0 +1,689 @@
+TiVote-Mobile
+v5
+r1
+cCheck dependencies
+cProcessInfoPlistFile /Users/tmarrs/projects/iVote-Mobile/build/iVote-Mobile.app/Info.plist iVote-Mobile/iVote-Mobile-Info.plist
+cPhaseScriptExecution "Copy www directory" /Users/tmarrs/projects/iVote-Mobile/build/iVote-Mobile.build/Debug-iphonesimulator/iVote-Mobile.build/Script-304B58A110DAC018002A0835.sh
+cCpResource iVote-Mobile/Resources/icons/icon-72.png build/iVote-Mobile.app/icon-72.png
+cCpResource iVote-Mobile/config.xml build/iVote-Mobile.app/config.xml
+cCpResource iVote-Mobile/Resources/icons/icon.png build/iVote-Mobile.app/icon.png
+cCpResource iVote-Mobile/Resources/icons/icon@2x.png build/iVote-Mobile.app/icon@2x.png
+cCpResource iVote-Mobile/Resources/Capture.bundle build/iVote-Mobile.app/Capture.bundle
+cCopyStringsFile /Users/tmarrs/projects/iVote-Mobile/build/iVote-Mobile.app/en.lproj/Localizable.strings iVote-Mobile/Resources/en.lproj/Localizable.strings
+cCopyStringsFile /Users/tmarrs/projects/iVote-Mobile/build/iVote-Mobile.app/es.lproj/Localizable.strings iVote-Mobile/Resources/es.lproj/Localizable.strings
+cCompileXIB /Users/tmarrs/projects/iVote-Mobile/iVote-Mobile/Classes/MainViewController.xib
+cCopyStringsFile /Users/tmarrs/projects/iVote-Mobile/build/iVote-Mobile.app/de.lproj/Localizable.strings iVote-Mobile/Resources/de.lproj/Localizable.strings
+cCpResource iVote-Mobile/Resources/splash/Default-Landscape@2x~ipad.png build/iVote-Mobile.app/Default-Landscape@2x~ipad.png
+cCopyStringsFile /Users/tmarrs/projects/iVote-Mobile/build/iVote-Mobile.app/se.lproj/Localizable.strings iVote-Mobile/Resources/se.lproj/Localizable.strings
+cCpResource iVote-Mobile/Resources/splash/Default-Landscape~ipad.png build/iVote-Mobile.app/Default-Landscape~ipad.png
+cCpResource iVote-Mobile/Resources/splash/Default-Portrait@2x~ipad.png build/iVote-Mobile.app/Default-Portrait@2x~ipad.png
+cCpResource iVote-Mobile/Resources/splash/Default-Portrait~ipad.png build/iVote-Mobile.app/Default-Portrait~ipad.png
+cCpResource iVote-Mobile/Resources/splash/Default@2x~iphone.png build/iVote-Mobile.app/Default@2x~iphone.png
+cCpResource iVote-Mobile/Resources/splash/Default~iphone.png build/iVote-Mobile.app/Default~iphone.png
+cCpResource iVote-Mobile/Resources/splash/Default-568h@2x~iphone.png build/iVote-Mobile.app/Default-568h@2x~iphone.png
+cCpResource iVote-Mobile/Resources/icons/icon-72@2x.png build/iVote-Mobile.app/icon-72@2x.png
+cProcessPCH /var/folders/mn/yh5h1bpx035bgj4lhp0tzm3w0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/iVote-Mobile-Prefix-fgmijxrhjmwnyggnfcwcsrzomzog/iVote-Mobile-Prefix.pch.pth iVote-Mobile/iVote-Mobile-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/iVote-Mobile.build/Debug-iphonesimulator/iVote-Mobile.build/Objects-normal/i386/main.o /Users/tmarrs/projects/iVote-Mobile/iVote-Mobile/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/iVote-Mobile.build/Debug-iphonesimulator/iVote-Mobile.build/Objects-normal/i386/AppDelegate.o /Users/tmarrs/projects/iVote-Mobile/iVote-Mobile/Classes/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/iVote-Mobile.build/Debug-iphonesimulator/iVote-Mobile.build/Objects-normal/i386/MainViewController.o /Users/tmarrs/projects/iVote-Mobile/iVote-Mobile/Classes/MainViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/tmarrs/projects/iVote-Mobile/build/iVote-Mobile.app/iVote-Mobile normal i386
+cGenerateDSYMFile /Users/tmarrs/projects/iVote-Mobile/build/iVote-Mobile.app.dSYM /Users/tmarrs/projects/iVote-Mobile/build/iVote-Mobile.app/iVote-Mobile
+cTouch /Users/tmarrs/projects/iVote-Mobile/build/iVote-Mobile.app
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk
+c00000000516D66C80000000000000110
+t1366124232
+s272
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/AVFoundation.framework/AVFoundation
+c0000000051088C0400000000001EB540
+t1359514628
+s2012480
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/AddressBook.framework/AddressBook
+c0000000051088C0400000000000C1030
+t1359514628
+s790576
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/AddressBookUI.framework/AddressBookUI
+c0000000051088C040000000000193640
+t1359514628
+s1652288
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/AssetsLibrary.framework/AssetsLibrary
+c0000000051088C0400000000000226E0
+t1359514628
+s141024
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
+c0000000051088C0400000000003D4DF0
+t1359514628
+s4017648
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/CFNetwork.framework/CFNetwork
+c0000000051088C050000000000215DB0
+t1359514629
+s2186672
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c0000000051088C050000000000228FE0
+t1359514629
+s2265056
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/CoreLocation.framework/CoreLocation
+c0000000051088C05000000000009C590
+t1359514629
+s640400
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/CoreMedia.framework/CoreMedia
+c0000000051088C050000000000085620
+t1359514629
+s546336
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c0000000051088C0600000000003DDFA0
+t1359514630
+s4054944
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/MediaPlayer.framework/MediaPlayer
+c0000000051088C0700000000002DBA50
+t1359514631
+s2996816
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/MobileCoreServices.framework/MobileCoreServices
+c0000000051088C0800000000000BCC20
+t1359514632
+s773152
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+c0000000051088C0800000000001D5750
+t1359514632
+s1922896
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/SystemConfiguration.framework/SystemConfiguration
+c0000000051088C08000000000006CC50
+t1359514632
+s445520
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c0000000051088C0A0000000000AB6230
+t1359514634
+s11231792
+
+N/Users/tmarrs/projects/iVote-Mobile/build/iVote-Mobile.app
+t2
+s0
+
+N/Users/tmarrs/projects/iVote-Mobile/build/iVote-Mobile.app.dSYM
+t2
+s0
+
+N/Users/tmarrs/projects/iVote-Mobile/build/iVote-Mobile.app/Capture.bundle
+t2
+s0
+
+N/Users/tmarrs/projects/iVote-Mobile/build/iVote-Mobile.app/Default-568h@2x~iphone.png
+t2
+s0
+
+N/Users/tmarrs/projects/iVote-Mobile/build/iVote-Mobile.app/Default-Landscape@2x~ipad.png
+t2
+s0
+
+N/Users/tmarrs/projects/iVote-Mobile/build/iVote-Mobile.app/Default-Landscape~ipad.png
+t2
+s0
+
+N/Users/tmarrs/projects/iVote-Mobile/build/iVote-Mobile.app/Default-Portrait@2x~ipad.png
+t2
+s0
+
+N/Users/tmarrs/projects/iVote-Mobile/build/iVote-Mobile.app/Default-Portrait~ipad.png
+t2
+s0
+
+N/Users/tmarrs/projects/iVote-Mobile/build/iVote-Mobile.app/Default@2x~iphone.png
+t2
+s0
+
+N/Users/tmarrs/projects/iVote-Mobile/build/iVote-Mobile.app/Default~iphone.png
+t2
+s0
+
+N/Users/tmarrs/projects/iVote-Mobile/build/iVote-Mobile.app/Info.plist
+t2
+s0
+
+N/Users/tmarrs/projects/iVote-Mobile/build/iVote-Mobile.app/MainViewController.nib
+t2
+s0
+
+N/Users/tmarrs/projects/iVote-Mobile/build/iVote-Mobile.app/PkgInfo
+t2
+s0
+
+N/Users/tmarrs/projects/iVote-Mobile/build/iVote-Mobile.app/config.xml
+t2
+s0
+
+N/Users/tmarrs/projects/iVote-Mobile/build/iVote-Mobile.app/de.lproj/Localizable.strings
+t2
+s0
+
+N/Users/tmarrs/projects/iVote-Mobile/build/iVote-Mobile.app/en.lproj/Localizable.strings
+t2
+s0
+
+N/Users/tmarrs/projects/iVote-Mobile/build/iVote-Mobile.app/es.lproj/Localizable.strings
+t2
+s0
+
+N/Users/tmarrs/projects/iVote-Mobile/build/iVote-Mobile.app/iVote-Mobile
+t2
+s0
+
+N/Users/tmarrs/projects/iVote-Mobile/build/iVote-Mobile.app/icon-72.png
+t2
+s0
+
+N/Users/tmarrs/projects/iVote-Mobile/build/iVote-Mobile.app/icon-72@2x.png
+t2
+s0
+
+N/Users/tmarrs/projects/iVote-Mobile/build/iVote-Mobile.app/icon.png
+t2
+s0
+
+N/Users/tmarrs/projects/iVote-Mobile/build/iVote-Mobile.app/icon@2x.png
+t2
+s0
+
+N/Users/tmarrs/projects/iVote-Mobile/build/iVote-Mobile.app/se.lproj/Localizable.strings
+t2
+s0
+
+N/Users/tmarrs/projects/iVote-Mobile/build/iVote-Mobile.build/Debug-iphonesimulator/iVote-Mobile.build/Objects-normal/i386/AppDelegate.o
+t2
+s0
+
+N/Users/tmarrs/projects/iVote-Mobile/build/iVote-Mobile.build/Debug-iphonesimulator/iVote-Mobile.build/Objects-normal/i386/MainViewController.o
+t2
+s0
+
+N/Users/tmarrs/projects/iVote-Mobile/build/iVote-Mobile.build/Debug-iphonesimulator/iVote-Mobile.build/Objects-normal/i386/iVote-Mobile.LinkFileList
+c0000000051AB55340000000000000198
+t1370182964
+s408
+
+N/Users/tmarrs/projects/iVote-Mobile/build/iVote-Mobile.build/Debug-iphonesimulator/iVote-Mobile.build/Objects-normal/i386/main.o
+t2
+s0
+
+N/Users/tmarrs/projects/iVote-Mobile/build/iVote-Mobile.build/Debug-iphonesimulator/iVote-Mobile.build/Script-304B58A110DAC018002A0835.sh
+c0000000051AB5534000000000000051A
+t1370182964
+s1306
+
+N/Users/tmarrs/projects/iVote-Mobile/build/include/Cordova/CDVAvailability.h
+c0000000051AB54A80000000000000C0B
+t1370182824
+s3083
+
+N/Users/tmarrs/projects/iVote-Mobile/build/include/Cordova/CDVCommandDelegate.h
+c0000000051AB54A800000000000008BA
+t1370182824
+s2234
+
+N/Users/tmarrs/projects/iVote-Mobile/build/include/Cordova/CDVCommandDelegateImpl.h
+c0000000051AB54A80000000000000473
+t1370182824
+s1139
+
+N/Users/tmarrs/projects/iVote-Mobile/build/include/Cordova/CDVCommandQueue.h
+c0000000051AB54A80000000000000501
+t1370182824
+s1281
+
+N/Users/tmarrs/projects/iVote-Mobile/build/include/Cordova/CDVInvokedUrlCommand.h
+c0000000051AB54A80000000000000906
+t1370182824
+s2310
+
+N/Users/tmarrs/projects/iVote-Mobile/build/include/Cordova/CDVPlugin.h
+c0000000051AB54A80000000000000892
+t1370182824
+s2194
+
+N/Users/tmarrs/projects/iVote-Mobile/build/include/Cordova/CDVPluginResult.h
+c0000000051AB54A80000000000000C13
+t1370182824
+s3091
+
+N/Users/tmarrs/projects/iVote-Mobile/build/include/Cordova/CDVScreenOrientationDelegate.h
+c0000000051AB54A80000000000000408
+t1370182824
+s1032
+
+N/Users/tmarrs/projects/iVote-Mobile/build/include/Cordova/CDVViewController.h
+c0000000051AB54A80000000000000B67
+t1370182824
+s2919
+
+N/Users/tmarrs/projects/iVote-Mobile/build/include/Cordova/CDVWhitelist.h
+c0000000051AB54A80000000000000476
+t1370182824
+s1142
+
+N/Users/tmarrs/projects/iVote-Mobile/build/include/Cordova/NSMutableArray+QueueAdditions.h
+c0000000051AB54A800000000000003A0
+t1370182824
+s928
+
+N/Users/tmarrs/projects/iVote-Mobile/build/libCordova.a
+c0000000051AB55340000000000361758
+t1370182964
+s3544920
+
+N/Users/tmarrs/projects/iVote-Mobile/iVote-Mobile/Classes/AppDelegate.h
+c0000000051AA3EF200000000000005BD
+t1370111730
+s1469
+
+N/Users/tmarrs/projects/iVote-Mobile/iVote-Mobile/Classes/AppDelegate.m
+c0000000051AA3EF200000000000013DE
+t1370111730
+s5086
+
+N/Users/tmarrs/projects/iVote-Mobile/iVote-Mobile/Classes/MainViewController.h
+c0000000051AA3EF200000000000004D2
+t1370111730
+s1234
+
+N/Users/tmarrs/projects/iVote-Mobile/iVote-Mobile/Classes/MainViewController.m
+c0000000051AA3EF2000000000000126D
+t1370111730
+s4717
+
+N/Users/tmarrs/projects/iVote-Mobile/iVote-Mobile/Classes/MainViewController.xib
+c0000000051AA3EF20000000000001759
+t1370111730
+s5977
+
+N/Users/tmarrs/projects/iVote-Mobile/iVote-Mobile/Resources/Capture.bundle
+c0000000051AA3EF2000000000000030E
+t1370111730
+s782
+
+N/Users/tmarrs/projects/iVote-Mobile/iVote-Mobile/Resources/de.lproj/Localizable.strings
+c0000000051AA3EF20000000000000485
+t1370111730
+s1157
+
+N/Users/tmarrs/projects/iVote-Mobile/iVote-Mobile/Resources/en.lproj/Localizable.strings
+c0000000051AA3EF20000000000000470
+t1370111730
+s1136
+
+N/Users/tmarrs/projects/iVote-Mobile/iVote-Mobile/Resources/es.lproj/Localizable.strings
+c0000000051AA3EF2000000000000047D
+t1370111730
+s1149
+
+N/Users/tmarrs/projects/iVote-Mobile/iVote-Mobile/Resources/icons/icon-72.png
+c0000000051AA3EF20000000000001350
+t1370111730
+s4944
+
+N/Users/tmarrs/projects/iVote-Mobile/iVote-Mobile/Resources/icons/icon-72@2x.png
+c0000000051AA3EF20000000000002DBA
+t1370111730
+s11706
+
+N/Users/tmarrs/projects/iVote-Mobile/iVote-Mobile/Resources/icons/icon.png
+c0000000051AA3EF20000000000000F3E
+t1370111730
+s3902
+
+N/Users/tmarrs/projects/iVote-Mobile/iVote-Mobile/Resources/icons/icon@2x.png
+c0000000051AA3EF20000000000001EBD
+t1370111730
+s7869
+
+N/Users/tmarrs/projects/iVote-Mobile/iVote-Mobile/Resources/se.lproj/Localizable.strings
+c0000000051AA3EF20000000000000471
+t1370111730
+s1137
+
+N/Users/tmarrs/projects/iVote-Mobile/iVote-Mobile/Resources/splash/Default-568h@2x~iphone.png
+c0000000051AA3EF200000000000085B1
+t1370111730
+s34225
+
+N/Users/tmarrs/projects/iVote-Mobile/iVote-Mobile/Resources/splash/Default-Landscape@2x~ipad.png
+c0000000051AA3EF20000000000012DF4
+t1370111730
+s77300
+
+N/Users/tmarrs/projects/iVote-Mobile/iVote-Mobile/Resources/splash/Default-Landscape~ipad.png
+c0000000051AA3EF20000000000008877
+t1370111730
+s34935
+
+N/Users/tmarrs/projects/iVote-Mobile/iVote-Mobile/Resources/splash/Default-Portrait@2x~ipad.png
+c0000000051AA3EF20000000000012B02
+t1370111730
+s76546
+
+N/Users/tmarrs/projects/iVote-Mobile/iVote-Mobile/Resources/splash/Default-Portrait~ipad.png
+c0000000051AA3EF200000000000085E6
+t1370111730
+s34278
+
+N/Users/tmarrs/projects/iVote-Mobile/iVote-Mobile/Resources/splash/Default@2x~iphone.png
+c0000000051AA3EF20000000000007323
+t1370111730
+s29475
+
+N/Users/tmarrs/projects/iVote-Mobile/iVote-Mobile/Resources/splash/Default~iphone.png
+c0000000051AA3EF2000000000000289A
+t1370111730
+s10394
+
+N/Users/tmarrs/projects/iVote-Mobile/iVote-Mobile/config.xml
+c0000000051AA3EF20000000000000B6B
+t1370111730
+s2923
+
+N/Users/tmarrs/projects/iVote-Mobile/iVote-Mobile/iVote-Mobile-Prefix.pch
+c0000000051AA3EF200000000000003C9
+t1370111730
+s969
+
+N/Users/tmarrs/projects/iVote-Mobile/iVote-Mobile/main.m
+c0000000051AA3EF2000000000000045E
+t1370111730
+s1118
+
+N/var/folders/mn/yh5h1bpx035bgj4lhp0tzm3w0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/iVote-Mobile-Prefix-fgmijxrhjmwnyggnfcwcsrzomzog/iVote-Mobile-Prefix.pch.pth
+t2
+s0
+
+NiVote-Mobile/iVote-Mobile-Info.plist
+c0000000051AA3EF200000000000009CC
+t1370111730
+s2508
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies2cf32eb48c5bb741^6afb2fb48c5bb741^---0#1#0#--18"Check dependencies36"871E18D9-D0F4-4EB2-9F25-DC8A1ADE1D04-
+
+CCompileC build/iVote-Mobile.build/Debug-iphonesimulator/iVote-Mobile.build/Objects-normal/i386/AppDelegate.o /Users/tmarrs/projects/iVote-Mobile/iVote-Mobile/Classes/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s391875765.653200
+e391875765.719232
+r1
+xCompileC
+xbuild/iVote-Mobile.build/Debug-iphonesimulator/iVote-Mobile.build/Objects-normal/i386/AppDelegate.o
+x/Users/tmarrs/projects/iVote-Mobile/iVote-Mobile/Classes/AppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+o/Users/tmarrs/projects/iVote-Mobile/iVote-Mobile/Classes/AppDelegate.m:80:25: warning: 'useSplashScreen' is deprecated: Deprecated in Cordova 2.5. Add/Remove the SplashScreen plugin instead of setting this property. [-Wdeprecated-declarations]
+o    self.viewController.useSplashScreen = YES;
+o                        ^
+o/Users/tmarrs/projects/iVote-Mobile/build/include/Cordova/CDVViewController.h:46:47: note: 'useSplashScreen' declared here
+o@property (nonatomic, readwrite, assign) BOOL useSplashScreen CDV_DEPRECATED(2.5, "Add/Remove the SplashScreen plugin instead of setting this property.");
+o                                              ^
+o1 warning generated.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection78"Compile /Users/tmarrs/projects/iVote-Mobile/iVote-Mobile/Classes/AppDelegate.m8462a7b58c5bb741^261eb8b58c5bb741^-664"/Users/tmarrs/projects/iVote-Mobile/iVote-Mobile/Classes/AppDelegate.m:80:25: warning: 'useSplashScreen' is deprecated: Deprecated in Cordova 2.5. Add/Remove the SplashScreen plugin instead of setting this property. [-Wdeprecated-declarations]    self.viewController.useSplashScreen = YES;                        ^/Users/tmarrs/projects/iVote-Mobile/build/include/Cordova/CDVViewController.h:46:47: note: 'useSplashScreen' declared here@property (nonatomic, readwrite, assign) BOOL useSplashScreen CDV_DEPRECATED(2.5, "Add/Remove the SplashScreen plugin instead of setting this property.");                                              ^1 warning generated.1(36%IDEClangDiagnosticActivityLogMessage2@128"'useSplashScreen' is deprecated: Deprecated in Cordova 2.5. Add/Remove the SplashScreen plugin instead of setting this property.-391875765#18446744073709551615#0#1(2@31"'useSplashScreen' declared here-391875765#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@90"file://localhost/Users/tmarrs/projects/iVote-Mobile/CordovaLib/Classes/CDVViewController.h0000000000000000^45#46#45#46#1826#0#14"Semantic Issue--1#27"com.apple.dt.IDE.diagnostic3@86"file://localhost/Users/tmarrs/projects/iVote-Mobile/iVote-Mobile/Classes/AppDelegate.m0000000000000000^79#24#79#24#2697#0#12"Deprecations--0#0#0#-19%DVTDocumentLocation4@86"file://localhost/Users/tmarrs/projects/iVote-Mobile/iVote-Mobile/Classes/AppDelegate.m0000000000000000^3758"CompileC build/iVote-Mobile.build/Debug-iphonesimulator/iVote-Mobile.build/Objects-normal/i386/AppDelegate.o iVote-Mobile/Classes/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/tmarrs/projects/iVote-Mobile    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/tmarrs/.rvm/gems/ruby-1.9.3-p194/bin:/Users/tmarrs/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/tmarrs/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/tmarrs/.rvm/bin:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/bin:/usr/share/maven/bin:/usr/local/mysql/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/sm/bin:/opt/sm/pkg/active/bin:/opt/sm/pkg/active/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Users/tmarrs/projects/iVote-Mobile/build/iVote-Mobile.build/Debug-iphonesimulator/iVote-Mobile.build/iVote-Mobile-generated-files.hmap -I/Users/tmarrs/projects/iVote-Mobile/build/iVote-Mobile.build/Debug-iphonesimulator/iVote-Mobile.build/iVote-Mobile-own-target-headers.hmap -I/Users/tmarrs/projects/iVote-Mobile/build/iVote-Mobile.build/Debug-iphonesimulator/iVote-Mobile.build/iVote-Mobile-all-target-headers.hmap -iquote /Users/tmarrs/projects/iVote-Mobile/build/iVote-Mobile.build/Debug-iphonesimulator/iVote-Mobile.build/iVote-Mobile-project-headers.hmap -I/Users/tmarrs/projects/iVote-Mobile/build/include -I/Users/tmarrs/projects/iVote-Mobile/build/usr/local/lib/include -I/Users/tmarrs/projects/iVote-Mobile/build/UninstalledProducts/include -I/Users/tmarrs/projects/iVote-Mobile/build -I/Users/tmarrs/projects/iVote-Mobile/build/iVote-Mobile.build/Debug-iphonesimulator/iVote-Mobile.build/DerivedSources/i386 -I/Users/tmarrs/projects/iVote-Mobile/build/iVote-Mobile.build/Debug-iphonesimulator/iVote-Mobile.build/DerivedSources -F/Users/tmarrs/projects/iVote-Mobile/build -include /var/folders/mn/yh5h1bpx035bgj4lhp0tzm3w0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/iVote-Mobile-Prefix-fgmijxrhjmwnyggnfcwcsrzomzog/iVote-Mobile-Prefix.pch -MMD -MT dependencies -MF /Users/tmarrs/projects/iVote-Mobile/build/iVote-Mobile.build/Debug-iphonesimulator/iVote-Mobile.build/Objects-normal/i386/AppDelegate.d --serialize-diagnostics /Users/tmarrs/projects/iVote-Mobile/build/iVote-Mobile.build/Debug-iphonesimulator/iVote-Mobile.build/Objects-normal/i386/AppDelegate.dia -c /Users/tmarrs/projects/iVote-Mobile/iVote-Mobile/Classes/AppDelegate.m -o /Users/tmarrs/projects/iVote-Mobile/build/iVote-Mobile.build/Debug-iphonesimulator/iVote-Mobile.build/Objects-normal/i386/AppDelegate.o36"00C46DCA-E7C1-4FAA-A39B-F42E35006A93-
+
+CCompileC build/iVote-Mobile.build/Debug-iphonesimulator/iVote-Mobile.build/Objects-normal/i386/MainViewController.o /Users/tmarrs/projects/iVote-Mobile/iVote-Mobile/Classes/MainViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s391875765.653220
+e391875765.713413
+r1
+xCompileC
+xbuild/iVote-Mobile.build/Debug-iphonesimulator/iVote-Mobile.build/Objects-normal/i386/MainViewController.o
+x/Users/tmarrs/projects/iVote-Mobile/iVote-Mobile/Classes/MainViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection85"Compile /Users/tmarrs/projects/iVote-Mobile/iVote-Mobile/Classes/MainViewController.mfe61a7b58c5bb741^73a1b6b58c5bb741^---0#0#0#-19%DVTDocumentLocation2@93"file://localhost/Users/tmarrs/projects/iVote-Mobile/iVote-Mobile/Classes/MainViewController.m0000000000000000^3800"CompileC build/iVote-Mobile.build/Debug-iphonesimulator/iVote-Mobile.build/Objects-normal/i386/MainViewController.o iVote-Mobile/Classes/MainViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/tmarrs/projects/iVote-Mobile    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/tmarrs/.rvm/gems/ruby-1.9.3-p194/bin:/Users/tmarrs/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/tmarrs/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/tmarrs/.rvm/bin:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/bin:/usr/share/maven/bin:/usr/local/mysql/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/sm/bin:/opt/sm/pkg/active/bin:/opt/sm/pkg/active/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Users/tmarrs/projects/iVote-Mobile/build/iVote-Mobile.build/Debug-iphonesimulator/iVote-Mobile.build/iVote-Mobile-generated-files.hmap -I/Users/tmarrs/projects/iVote-Mobile/build/iVote-Mobile.build/Debug-iphonesimulator/iVote-Mobile.build/iVote-Mobile-own-target-headers.hmap -I/Users/tmarrs/projects/iVote-Mobile/build/iVote-Mobile.build/Debug-iphonesimulator/iVote-Mobile.build/iVote-Mobile-all-target-headers.hmap -iquote /Users/tmarrs/projects/iVote-Mobile/build/iVote-Mobile.build/Debug-iphonesimulator/iVote-Mobile.build/iVote-Mobile-project-headers.hmap -I/Users/tmarrs/projects/iVote-Mobile/build/include -I/Users/tmarrs/projects/iVote-Mobile/build/usr/local/lib/include -I/Users/tmarrs/projects/iVote-Mobile/build/UninstalledProducts/include -I/Users/tmarrs/projects/iVote-Mobile/build -I/Users/tmarrs/projects/iVote-Mobile/build/iVote-Mobile.build/Debug-iphonesimulator/iVote-Mobile.build/DerivedSources/i386 -I/Users/tmarrs/projects/iVote-Mobile/build/iVote-Mobile.build/Debug-iphonesimulator/iVote-Mobile.build/DerivedSources -F/Users/tmarrs/projects/iVote-Mobile/build -include /var/folders/mn/yh5h1bpx035bgj4lhp0tzm3w0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/iVote-Mobile-Prefix-fgmijxrhjmwnyggnfcwcsrzomzog/iVote-Mobile-Prefix.pch -MMD -MT dependencies -MF /Users/tmarrs/projects/iVote-Mobile/build/iVote-Mobile.build/Debug-iphonesimulator/iVote-Mobile.build/Objects-normal/i386/MainViewController.d --serialize-diagnostics /Users/tmarrs/projects/iVote-Mobile/build/iVote-Mobile.build/Debug-iphonesimulator/iVote-Mobile.build/Objects-normal/i386/MainViewController.dia -c /Users/tmarrs/projects/iVote-Mobile/iVote-Mobile/Classes/MainViewController.m -o /Users/tmarrs/projects/iVote-Mobile/build/iVote-Mobile.build/Debug-iphonesimulator/iVote-Mobile.build/Objects-normal/i386/MainViewController.o36"FC7A79DC-048C-4BC9-BBC6-E7B11C9035D8-
+
+CCompileC build/iVote-Mobile.build/Debug-iphonesimulator/iVote-Mobile.build/Objects-normal/i386/main.o /Users/tmarrs/projects/iVote-Mobile/iVote-Mobile/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s391875765.653189
+e391875765.675558
+r1
+xCompileC
+xbuild/iVote-Mobile.build/Debug-iphonesimulator/iVote-Mobile.build/Objects-normal/i386/main.o
+x/Users/tmarrs/projects/iVote-Mobile/iVote-Mobile/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection63"Compile /Users/tmarrs/projects/iVote-Mobile/iVote-Mobile/main.m1459a7b58c5bb741^80f1acb58c5bb741^---0#0#0#-19%DVTDocumentLocation2@71"file://localhost/Users/tmarrs/projects/iVote-Mobile/iVote-Mobile/main.m0000000000000000^3700"CompileC build/iVote-Mobile.build/Debug-iphonesimulator/iVote-Mobile.build/Objects-normal/i386/main.o iVote-Mobile/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/tmarrs/projects/iVote-Mobile    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/tmarrs/.rvm/gems/ruby-1.9.3-p194/bin:/Users/tmarrs/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/tmarrs/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/tmarrs/.rvm/bin:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/bin:/usr/share/maven/bin:/usr/local/mysql/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/sm/bin:/opt/sm/pkg/active/bin:/opt/sm/pkg/active/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Users/tmarrs/projects/iVote-Mobile/build/iVote-Mobile.build/Debug-iphonesimulator/iVote-Mobile.build/iVote-Mobile-generated-files.hmap -I/Users/tmarrs/projects/iVote-Mobile/build/iVote-Mobile.build/Debug-iphonesimulator/iVote-Mobile.build/iVote-Mobile-own-target-headers.hmap -I/Users/tmarrs/projects/iVote-Mobile/build/iVote-Mobile.build/Debug-iphonesimulator/iVote-Mobile.build/iVote-Mobile-all-target-headers.hmap -iquote /Users/tmarrs/projects/iVote-Mobile/build/iVote-Mobile.build/Debug-iphonesimulator/iVote-Mobile.build/iVote-Mobile-project-headers.hmap -I/Users/tmarrs/projects/iVote-Mobile/build/include -I/Users/tmarrs/projects/iVote-Mobile/build/usr/local/lib/include -I/Users/tmarrs/projects/iVote-Mobile/build/UninstalledProducts/include -I/Users/tmarrs/projects/iVote-Mobile/build -I/Users/tmarrs/projects/iVote-Mobile/build/iVote-Mobile.build/Debug-iphonesimulator/iVote-Mobile.build/DerivedSources/i386 -I/Users/tmarrs/projects/iVote-Mobile/build/iVote-Mobile.build/Debug-iphonesimulator/iVote-Mobile.build/DerivedSources -F/Users/tmarrs/projects/iVote-Mobile/build -include /var/folders/mn/yh5h1bpx035bgj4lhp0tzm3w0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/iVote-Mobile-Prefix-fgmijxrhjmwnyggnfcwcsrzomzog/iVote-Mobile-Prefix.pch -MMD -MT dependencies -MF /Users/tmarrs/projects/iVote-Mobile/build/iVote-Mobile.build/Debug-iphonesimulator/iVote-Mobile.build/Objects-normal/i386/main.d --serialize-diagnostics /Users/tmarrs/projects/iVote-Mobile/build/iVote-Mobile.build/Debug-iphonesimulator/iVote-Mobile.build/Objects-normal/i386/main.dia -c /Users/tmarrs/projects/iVote-Mobile/iVote-Mobile/main.m -o /Users/tmarrs/projects/iVote-Mobile/build/iVote-Mobile.build/Debug-iphonesimulator/iVote-Mobile.build/Objects-normal/i386/main.o36"C47B1270-CCA2-4D0A-A6C0-3EF9BC1487DD-
+
+CCompileXIB /Users/tmarrs/projects/iVote-Mobile/iVote-Mobile/Classes/MainViewController.xib
+s391875764.388127
+e391875765.353205
+r1
+xCompileXIB
+x/Users/tmarrs/projects/iVote-Mobile/iVote-Mobile/Classes/MainViewController.xib
+o2013-06-02 08:22:44.943 Interface Builder Cocoa Touch Tool[58600:f07] CFPreferences: user home directory at file://localhost/Users/tmarrs/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection89"Compiling /Users/tmarrs/projects/iVote-Mobile/iVote-Mobile/Classes/MainViewController.xib967963b48c5bb741^986e5ab58c5bb741^-239"2013-06-02 08:22:44.943 Interface Builder Cocoa Touch Tool[58600:f07] CFPreferences: user home directory at file://localhost/Users/tmarrs/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.-0#0#0#-19%DVTDocumentLocation2@95"file://localhost/Users/tmarrs/projects/iVote-Mobile/iVote-Mobile/Classes/MainViewController.xib0000000000000000^1248"CompileXIB iVote-Mobile/Classes/MainViewController.xib    cd /Users/tmarrs/projects/iVote-Mobile    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 5.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/tmarrs/.rvm/gems/ruby-1.9.3-p194/bin:/Users/tmarrs/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/tmarrs/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/tmarrs/.rvm/bin:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/bin:/usr/share/maven/bin:/usr/local/mysql/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/sm/bin:/opt/sm/pkg/active/bin:/opt/sm/pkg/active/sbin"    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/tmarrs/projects/iVote-Mobile/build/iVote-Mobile.app/MainViewController.nib /Users/tmarrs/projects/iVote-Mobile/iVote-Mobile/Classes/MainViewController.xib --sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk36"B49D9387-5E97-45CB-A2C1-822D2AFA30FB-
+
+CCopyStringsFile /Users/tmarrs/projects/iVote-Mobile/build/iVote-Mobile.app/de.lproj/Localizable.strings iVote-Mobile/Resources/de.lproj/Localizable.strings
+s391875764.392335
+e391875764.401484
+r1
+xCopyStringsFile
+x/Users/tmarrs/projects/iVote-Mobile/build/iVote-Mobile.app/de.lproj/Localizable.strings
+xiVote-Mobile/Resources/de.lproj/Localizable.strings
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection56"Copy iVote-Mobile/Resources/de.lproj/Localizable.strings1e8c64b48c5bb741^88d666b48c5bb741^---0#0#0#-19%DVTDocumentLocation2@103"file://localhost/Users/tmarrs/projects/iVote-Mobile/iVote-Mobile/Resources/de.lproj/Localizable.strings0000000000000000^920"CopyStringsFile build/iVote-Mobile.app/de.lproj/Localizable.strings iVote-Mobile/Resources/de.lproj/Localizable.strings    cd /Users/tmarrs/projects/iVote-Mobile    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/tmarrs/.rvm/gems/ruby-1.9.3-p194/bin:/Users/tmarrs/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/tmarrs/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/tmarrs/.rvm/bin:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/bin:/usr/share/maven/bin:/usr/local/mysql/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/sm/bin:/opt/sm/pkg/active/bin:/opt/sm/pkg/active/sbin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/tmarrs/projects/iVote-Mobile/build/iVote-Mobile.app/de.lproj -- iVote-Mobile/Resources/de.lproj/Localizable.strings36"A0395AA5-8E2E-45BD-8E72-061085FBFC23-
+
+CCopyStringsFile /Users/tmarrs/projects/iVote-Mobile/build/iVote-Mobile.app/en.lproj/Localizable.strings iVote-Mobile/Resources/en.lproj/Localizable.strings
+s391875764.387576
+e391875764.401298
+r1
+xCopyStringsFile
+x/Users/tmarrs/projects/iVote-Mobile/build/iVote-Mobile.app/en.lproj/Localizable.strings
+xiVote-Mobile/Resources/en.lproj/Localizable.strings
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection56"Copy iVote-Mobile/Resources/en.lproj/Localizable.strings745e63b48c5bb741^04ca66b48c5bb741^---0#0#0#-19%DVTDocumentLocation2@103"file://localhost/Users/tmarrs/projects/iVote-Mobile/iVote-Mobile/Resources/en.lproj/Localizable.strings0000000000000000^920"CopyStringsFile build/iVote-Mobile.app/en.lproj/Localizable.strings iVote-Mobile/Resources/en.lproj/Localizable.strings    cd /Users/tmarrs/projects/iVote-Mobile    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/tmarrs/.rvm/gems/ruby-1.9.3-p194/bin:/Users/tmarrs/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/tmarrs/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/tmarrs/.rvm/bin:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/bin:/usr/share/maven/bin:/usr/local/mysql/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/sm/bin:/opt/sm/pkg/active/bin:/opt/sm/pkg/active/sbin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/tmarrs/projects/iVote-Mobile/build/iVote-Mobile.app/en.lproj -- iVote-Mobile/Resources/en.lproj/Localizable.strings36"3E01AFE3-B2D1-4062-B559-424EEC86AC46-
+
+CCopyStringsFile /Users/tmarrs/projects/iVote-Mobile/build/iVote-Mobile.app/es.lproj/Localizable.strings iVote-Mobile/Resources/es.lproj/Localizable.strings
+s391875764.387596
+e391875764.401249
+r1
+xCopyStringsFile
+x/Users/tmarrs/projects/iVote-Mobile/build/iVote-Mobile.app/es.lproj/Localizable.strings
+xiVote-Mobile/Resources/es.lproj/Localizable.strings
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection56"Copy iVote-Mobile/Resources/es.lproj/Localizable.stringsf65f63b48c5bb741^dcb766b48c5bb741^---0#0#0#-19%DVTDocumentLocation2@103"file://localhost/Users/tmarrs/projects/iVote-Mobile/iVote-Mobile/Resources/es.lproj/Localizable.strings0000000000000000^920"CopyStringsFile build/iVote-Mobile.app/es.lproj/Localizable.strings iVote-Mobile/Resources/es.lproj/Localizable.strings    cd /Users/tmarrs/projects/iVote-Mobile    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/tmarrs/.rvm/gems/ruby-1.9.3-p194/bin:/Users/tmarrs/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/tmarrs/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/tmarrs/.rvm/bin:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/bin:/usr/share/maven/bin:/usr/local/mysql/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/sm/bin:/opt/sm/pkg/active/bin:/opt/sm/pkg/active/sbin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/tmarrs/projects/iVote-Mobile/build/iVote-Mobile.app/es.lproj -- iVote-Mobile/Resources/es.lproj/Localizable.strings36"18AD2A7A-FE92-4E5B-BACA-B636016003A0-
+
+CCopyStringsFile /Users/tmarrs/projects/iVote-Mobile/build/iVote-Mobile.app/se.lproj/Localizable.strings iVote-Mobile/Resources/se.lproj/Localizable.strings
+s391875764.393657
+e391875764.402220
+r1
+xCopyStringsFile
+x/Users/tmarrs/projects/iVote-Mobile/build/iVote-Mobile.app/se.lproj/Localizable.strings
+xiVote-Mobile/Resources/se.lproj/Localizable.strings
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection56"Copy iVote-Mobile/Resources/se.lproj/Localizable.strings81e964b48c5bb741^b1f766b48c5bb741^---0#0#0#-19%DVTDocumentLocation2@103"file://localhost/Users/tmarrs/projects/iVote-Mobile/iVote-Mobile/Resources/se.lproj/Localizable.strings0000000000000000^920"CopyStringsFile build/iVote-Mobile.app/se.lproj/Localizable.strings iVote-Mobile/Resources/se.lproj/Localizable.strings    cd /Users/tmarrs/projects/iVote-Mobile    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/tmarrs/.rvm/gems/ruby-1.9.3-p194/bin:/Users/tmarrs/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/tmarrs/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/tmarrs/.rvm/bin:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/bin:/usr/share/maven/bin:/usr/local/mysql/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/sm/bin:/opt/sm/pkg/active/bin:/opt/sm/pkg/active/sbin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/tmarrs/projects/iVote-Mobile/build/iVote-Mobile.app/se.lproj -- iVote-Mobile/Resources/se.lproj/Localizable.strings36"7A650B6F-99F8-4190-87E5-D92887C8A272-
+
+CCpResource iVote-Mobile/Resources/Capture.bundle build/iVote-Mobile.app/Capture.bundle
+s391875764.387556
+e391875764.394884
+r1
+xCpResource
+xiVote-Mobile/Resources/Capture.bundle
+xbuild/iVote-Mobile.app/Capture.bundle
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection42"Copy build/iVote-Mobile.app/Capture.bundleb05863b48c5bb741^831765b48c5bb741^---0#0#0#-19%DVTDocumentLocation2@89"file://localhost/Users/tmarrs/projects/iVote-Mobile/build/iVote-Mobile.app/Capture.bundle000000000080d041^919"CpResource iVote-Mobile/Resources/Capture.bundle build/iVote-Mobile.app/Capture.bundle    cd /Users/tmarrs/projects/iVote-Mobile    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/tmarrs/.rvm/gems/ruby-1.9.3-p194/bin:/Users/tmarrs/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/tmarrs/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/tmarrs/.rvm/bin:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/bin:/usr/share/maven/bin:/usr/local/mysql/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/sm/bin:/opt/sm/pkg/active/bin:/opt/sm/pkg/active/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/tmarrs/projects/iVote-Mobile/iVote-Mobile/Resources/Capture.bundle /Users/tmarrs/projects/iVote-Mobile/build/iVote-Mobile.app36"669B02B4-BBD6-4ECA-9787-EC78815A5D8F-
+
+CCpResource iVote-Mobile/Resources/icons/icon-72.png build/iVote-Mobile.app/icon-72.png
+s391875764.387521
+e391875764.394568
+r1
+xCpResource
+xiVote-Mobile/Resources/icons/icon-72.png
+xbuild/iVote-Mobile.app/icon-72.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection39"Copy build/iVote-Mobile.app/icon-72.pnga35b63b48c5bb741^790265b48c5bb741^---0#0#0#-19%DVTDocumentLocation2@86"file://localhost/Users/tmarrs/projects/iVote-Mobile/build/iVote-Mobile.app/icon-72.png000000000080d041^922"CpResource iVote-Mobile/Resources/icons/icon-72.png build/iVote-Mobile.app/icon-72.png    cd /Users/tmarrs/projects/iVote-Mobile    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/tmarrs/.rvm/gems/ruby-1.9.3-p194/bin:/Users/tmarrs/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/tmarrs/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/tmarrs/.rvm/bin:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/bin:/usr/share/maven/bin:/usr/local/mysql/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/sm/bin:/opt/sm/pkg/active/bin:/opt/sm/pkg/active/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/tmarrs/projects/iVote-Mobile/iVote-Mobile/Resources/icons/icon-72.png /Users/tmarrs/projects/iVote-Mobile/build/iVote-Mobile.app36"E411F74B-3FEE-441A-BEB7-548C446F245D-
+
+CCpResource iVote-Mobile/Resources/icons/icon-72@2x.png build/iVote-Mobile.app/icon-72@2x.png
+s391875764.403393
+e391875764.409584
+r1
+xCpResource
+xiVote-Mobile/Resources/icons/icon-72@2x.png
+xbuild/iVote-Mobile.app/icon-72@2x.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection42"Copy build/iVote-Mobile.app/icon-72@2x.png4f5b67b48c5bb741^2bda68b48c5bb741^---0#0#0#-19%DVTDocumentLocation2@89"file://localhost/Users/tmarrs/projects/iVote-Mobile/build/iVote-Mobile.app/icon-72@2x.png000000000080d041^937"CpResource "iVote-Mobile/Resources/icons/icon-72@2x.png" "build/iVote-Mobile.app/icon-72@2x.png"    cd /Users/tmarrs/projects/iVote-Mobile    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/tmarrs/.rvm/gems/ruby-1.9.3-p194/bin:/Users/tmarrs/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/tmarrs/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/tmarrs/.rvm/bin:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/bin:/usr/share/maven/bin:/usr/local/mysql/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/sm/bin:/opt/sm/pkg/active/bin:/opt/sm/pkg/active/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/tmarrs/projects/iVote-Mobile/iVote-Mobile/Resources/icons/icon-72@2x.png" /Users/tmarrs/projects/iVote-Mobile/build/iVote-Mobile.app36"C2FBE709-8ED3-4FB0-BFA1-35E3EDA9A723-
+
+CCpResource iVote-Mobile/Resources/icons/icon.png build/iVote-Mobile.app/icon.png
+s391875764.387543
+e391875764.393314
+r1
+xCpResource
+xiVote-Mobile/Resources/icons/icon.png
+xbuild/iVote-Mobile.app/icon.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection36"Copy build/iVote-Mobile.app/icon.png9b5963b48c5bb741^5bb064b48c5bb741^---0#0#0#-19%DVTDocumentLocation2@83"file://localhost/Users/tmarrs/projects/iVote-Mobile/build/iVote-Mobile.app/icon.png000000000080d041^913"CpResource iVote-Mobile/Resources/icons/icon.png build/iVote-Mobile.app/icon.png    cd /Users/tmarrs/projects/iVote-Mobile    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/tmarrs/.rvm/gems/ruby-1.9.3-p194/bin:/Users/tmarrs/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/tmarrs/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/tmarrs/.rvm/bin:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/bin:/usr/share/maven/bin:/usr/local/mysql/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/sm/bin:/opt/sm/pkg/active/bin:/opt/sm/pkg/active/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/tmarrs/projects/iVote-Mobile/iVote-Mobile/Resources/icons/icon.png /Users/tmarrs/projects/iVote-Mobile/build/iVote-Mobile.app36"DB6B76EE-3C2D-47CD-98DC-FD4E35F5249E-
+
+CCpResource iVote-Mobile/Resources/icons/icon@2x.png build/iVote-Mobile.app/icon@2x.png
+s391875764.387546
+e391875764.392447
+r1
+xCpResource
+xiVote-Mobile/Resources/icons/icon@2x.png
+xbuild/iVote-Mobile.app/icon@2x.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection39"Copy build/iVote-Mobile.app/icon@2x.pngff5963b48c5bb741^687764b48c5bb741^---0#0#0#-19%DVTDocumentLocation2@86"file://localhost/Users/tmarrs/projects/iVote-Mobile/build/iVote-Mobile.app/icon@2x.png000000000080d041^928"CpResource "iVote-Mobile/Resources/icons/icon@2x.png" "build/iVote-Mobile.app/icon@2x.png"    cd /Users/tmarrs/projects/iVote-Mobile    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/tmarrs/.rvm/gems/ruby-1.9.3-p194/bin:/Users/tmarrs/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/tmarrs/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/tmarrs/.rvm/bin:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/bin:/usr/share/maven/bin:/usr/local/mysql/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/sm/bin:/opt/sm/pkg/active/bin:/opt/sm/pkg/active/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/tmarrs/projects/iVote-Mobile/iVote-Mobile/Resources/icons/icon@2x.png" /Users/tmarrs/projects/iVote-Mobile/build/iVote-Mobile.app36"6C7A6872-D82F-487E-A5D2-4C54981FC33E-
+
+CCpResource iVote-Mobile/Resources/splash/Default-568h@2x~iphone.png build/iVote-Mobile.app/Default-568h@2x~iphone.png
+s391875764.401882
+e391875764.406143
+r1
+xCpResource
+xiVote-Mobile/Resources/splash/Default-568h@2x~iphone.png
+xbuild/iVote-Mobile.app/Default-568h@2x~iphone.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection54"Copy build/iVote-Mobile.app/Default-568h@2x~iphone.png320167b48c5bb741^94f967b48c5bb741^---0#0#0#-19%DVTDocumentLocation2@101"file://localhost/Users/tmarrs/projects/iVote-Mobile/build/iVote-Mobile.app/Default-568h@2x~iphone.png000000000080d041^975"CpResource "iVote-Mobile/Resources/splash/Default-568h@2x~iphone.png" "build/iVote-Mobile.app/Default-568h@2x~iphone.png"    cd /Users/tmarrs/projects/iVote-Mobile    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/tmarrs/.rvm/gems/ruby-1.9.3-p194/bin:/Users/tmarrs/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/tmarrs/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/tmarrs/.rvm/bin:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/bin:/usr/share/maven/bin:/usr/local/mysql/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/sm/bin:/opt/sm/pkg/active/bin:/opt/sm/pkg/active/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/tmarrs/projects/iVote-Mobile/iVote-Mobile/Resources/splash/Default-568h@2x~iphone.png" /Users/tmarrs/projects/iVote-Mobile/build/iVote-Mobile.app36"ACCA4CD7-7D08-4A80-8720-78B57E6B8A02-
+
+CCpResource iVote-Mobile/Resources/splash/Default-Landscape@2x~ipad.png build/iVote-Mobile.app/Default-Landscape@2x~ipad.png
+s391875764.393632
+e391875764.400620
+r1
+xCpResource
+xiVote-Mobile/Resources/splash/Default-Landscape@2x~ipad.png
+xbuild/iVote-Mobile.app/Default-Landscape@2x~ipad.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection57"Copy build/iVote-Mobile.app/Default-Landscape@2x~ipad.png9be764b48c5bb741^f38f66b48c5bb741^---0#0#0#-19%DVTDocumentLocation2@104"file://localhost/Users/tmarrs/projects/iVote-Mobile/build/iVote-Mobile.app/Default-Landscape@2x~ipad.png000000000080d041^984"CpResource "iVote-Mobile/Resources/splash/Default-Landscape@2x~ipad.png" "build/iVote-Mobile.app/Default-Landscape@2x~ipad.png"    cd /Users/tmarrs/projects/iVote-Mobile    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/tmarrs/.rvm/gems/ruby-1.9.3-p194/bin:/Users/tmarrs/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/tmarrs/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/tmarrs/.rvm/bin:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/bin:/usr/share/maven/bin:/usr/local/mysql/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/sm/bin:/opt/sm/pkg/active/bin:/opt/sm/pkg/active/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/tmarrs/projects/iVote-Mobile/iVote-Mobile/Resources/splash/Default-Landscape@2x~ipad.png" /Users/tmarrs/projects/iVote-Mobile/build/iVote-Mobile.app36"3228CDAE-78B4-4AC4-8822-60BE73C4BCF5-
+
+CCpResource iVote-Mobile/Resources/splash/Default-Landscape~ipad.png build/iVote-Mobile.app/Default-Landscape~ipad.png
+s391875764.395719
+e391875764.402832
+r1
+xCpResource
+xiVote-Mobile/Resources/splash/Default-Landscape~ipad.png
+xbuild/iVote-Mobile.app/Default-Landscape~ipad.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection54"Copy build/iVote-Mobile.app/Default-Landscape~ipad.png0a6965b48c5bb741^ff1f67b48c5bb741^---0#0#0#-19%DVTDocumentLocation2@101"file://localhost/Users/tmarrs/projects/iVote-Mobile/build/iVote-Mobile.app/Default-Landscape~ipad.png000000000080d041^975"CpResource "iVote-Mobile/Resources/splash/Default-Landscape~ipad.png" "build/iVote-Mobile.app/Default-Landscape~ipad.png"    cd /Users/tmarrs/projects/iVote-Mobile    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/tmarrs/.rvm/gems/ruby-1.9.3-p194/bin:/Users/tmarrs/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/tmarrs/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/tmarrs/.rvm/bin:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/bin:/usr/share/maven/bin:/usr/local/mysql/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/sm/bin:/opt/sm/pkg/active/bin:/opt/sm/pkg/active/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/tmarrs/projects/iVote-Mobile/iVote-Mobile/Resources/splash/Default-Landscape~ipad.png" /Users/tmarrs/projects/iVote-Mobile/build/iVote-Mobile.app36"85B29271-AFF1-4CAE-AD1E-F64745660B20-
+
+CCpResource iVote-Mobile/Resources/splash/Default-Portrait@2x~ipad.png build/iVote-Mobile.app/Default-Portrait@2x~ipad.png
+s391875764.395732
+e391875764.403971
+r1
+xCpResource
+xiVote-Mobile/Resources/splash/Default-Portrait@2x~ipad.png
+xbuild/iVote-Mobile.app/Default-Portrait@2x~ipad.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection56"Copy build/iVote-Mobile.app/Default-Portrait@2x~ipad.pngd36965b48c5bb741^2b6b67b48c5bb741^---0#0#0#-19%DVTDocumentLocation2@103"file://localhost/Users/tmarrs/projects/iVote-Mobile/build/iVote-Mobile.app/Default-Portrait@2x~ipad.png000000000080d041^981"CpResource "iVote-Mobile/Resources/splash/Default-Portrait@2x~ipad.png" "build/iVote-Mobile.app/Default-Portrait@2x~ipad.png"    cd /Users/tmarrs/projects/iVote-Mobile    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/tmarrs/.rvm/gems/ruby-1.9.3-p194/bin:/Users/tmarrs/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/tmarrs/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/tmarrs/.rvm/bin:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/bin:/usr/share/maven/bin:/usr/local/mysql/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/sm/bin:/opt/sm/pkg/active/bin:/opt/sm/pkg/active/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/tmarrs/projects/iVote-Mobile/iVote-Mobile/Resources/splash/Default-Portrait@2x~ipad.png" /Users/tmarrs/projects/iVote-Mobile/build/iVote-Mobile.app36"7FB8BE37-CD8D-47BE-A855-1EC6D5FC1006-
+
+CCpResource iVote-Mobile/Resources/splash/Default-Portrait~ipad.png build/iVote-Mobile.app/Default-Portrait~ipad.png
+s391875764.401802
+e391875764.405009
+r1
+xCpResource
+xiVote-Mobile/Resources/splash/Default-Portrait~ipad.png
+xbuild/iVote-Mobile.app/Default-Portrait~ipad.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection53"Copy build/iVote-Mobile.app/Default-Portrait~ipad.pngb5fe66b48c5bb741^32af67b48c5bb741^---0#0#0#-19%DVTDocumentLocation2@100"file://localhost/Users/tmarrs/projects/iVote-Mobile/build/iVote-Mobile.app/Default-Portrait~ipad.png000000000080d041^972"CpResource "iVote-Mobile/Resources/splash/Default-Portrait~ipad.png" "build/iVote-Mobile.app/Default-Portrait~ipad.png"    cd /Users/tmarrs/projects/iVote-Mobile    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/tmarrs/.rvm/gems/ruby-1.9.3-p194/bin:/Users/tmarrs/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/tmarrs/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/tmarrs/.rvm/bin:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/bin:/usr/share/maven/bin:/usr/local/mysql/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/sm/bin:/opt/sm/pkg/active/bin:/opt/sm/pkg/active/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/tmarrs/projects/iVote-Mobile/iVote-Mobile/Resources/splash/Default-Portrait~ipad.png" /Users/tmarrs/projects/iVote-Mobile/build/iVote-Mobile.app36"ACF671AD-31A3-49AD-9E64-09B0D1D5E822-
+
+CCpResource iVote-Mobile/Resources/splash/Default@2x~iphone.png build/iVote-Mobile.app/Default@2x~iphone.png
+s391875764.401811
+e391875764.408474
+r1
+xCpResource
+xiVote-Mobile/Resources/splash/Default@2x~iphone.png
+xbuild/iVote-Mobile.app/Default@2x~iphone.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection49"Copy build/iVote-Mobile.app/Default@2x~iphone.pngf30367b48c5bb741^149268b48c5bb741^---0#0#0#-19%DVTDocumentLocation2@96"file://localhost/Users/tmarrs/projects/iVote-Mobile/build/iVote-Mobile.app/Default@2x~iphone.png000000000080d041^960"CpResource "iVote-Mobile/Resources/splash/Default@2x~iphone.png" "build/iVote-Mobile.app/Default@2x~iphone.png"    cd /Users/tmarrs/projects/iVote-Mobile    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/tmarrs/.rvm/gems/ruby-1.9.3-p194/bin:/Users/tmarrs/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/tmarrs/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/tmarrs/.rvm/bin:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/bin:/usr/share/maven/bin:/usr/local/mysql/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/sm/bin:/opt/sm/pkg/active/bin:/opt/sm/pkg/active/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/tmarrs/projects/iVote-Mobile/iVote-Mobile/Resources/splash/Default@2x~iphone.png" /Users/tmarrs/projects/iVote-Mobile/build/iVote-Mobile.app36"3B972FD1-CB7D-4393-ADC5-DEA95F2091E7-
+
+CCpResource iVote-Mobile/Resources/splash/Default~iphone.png build/iVote-Mobile.app/Default~iphone.png
+s391875764.401862
+e391875764.407418
+r1
+xCpResource
+xiVote-Mobile/Resources/splash/Default~iphone.png
+xbuild/iVote-Mobile.app/Default~iphone.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection46"Copy build/iVote-Mobile.app/Default~iphone.png360467b48c5bb741^234d68b48c5bb741^---0#0#0#-19%DVTDocumentLocation2@93"file://localhost/Users/tmarrs/projects/iVote-Mobile/build/iVote-Mobile.app/Default~iphone.png000000000080d041^951"CpResource "iVote-Mobile/Resources/splash/Default~iphone.png" "build/iVote-Mobile.app/Default~iphone.png"    cd /Users/tmarrs/projects/iVote-Mobile    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/tmarrs/.rvm/gems/ruby-1.9.3-p194/bin:/Users/tmarrs/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/tmarrs/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/tmarrs/.rvm/bin:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/bin:/usr/share/maven/bin:/usr/local/mysql/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/sm/bin:/opt/sm/pkg/active/bin:/opt/sm/pkg/active/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/tmarrs/projects/iVote-Mobile/iVote-Mobile/Resources/splash/Default~iphone.png" /Users/tmarrs/projects/iVote-Mobile/build/iVote-Mobile.app36"84708402-EE20-400D-B63D-321AED1ACDE3-
+
+CCpResource iVote-Mobile/config.xml build/iVote-Mobile.app/config.xml
+s391875764.387534
+e391875764.391132
+r1
+xCpResource
+xiVote-Mobile/config.xml
+xbuild/iVote-Mobile.app/config.xml
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection38"Copy build/iVote-Mobile.app/config.xmlf75763b48c5bb741^d52064b48c5bb741^---0#0#0#-19%DVTDocumentLocation2@85"file://localhost/Users/tmarrs/projects/iVote-Mobile/build/iVote-Mobile.app/config.xml000000000080d041^887"CpResource iVote-Mobile/config.xml build/iVote-Mobile.app/config.xml    cd /Users/tmarrs/projects/iVote-Mobile    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/tmarrs/.rvm/gems/ruby-1.9.3-p194/bin:/Users/tmarrs/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/tmarrs/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/tmarrs/.rvm/bin:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/bin:/usr/share/maven/bin:/usr/local/mysql/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/sm/bin:/opt/sm/pkg/active/bin:/opt/sm/pkg/active/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/tmarrs/projects/iVote-Mobile/iVote-Mobile/config.xml /Users/tmarrs/projects/iVote-Mobile/build/iVote-Mobile.app36"53AC90AE-164B-4D1B-B2DE-307B62E3FF70-
+
+CGenerateDSYMFile /Users/tmarrs/projects/iVote-Mobile/build/iVote-Mobile.app.dSYM /Users/tmarrs/projects/iVote-Mobile/build/iVote-Mobile.app/iVote-Mobile
+s391875766.097645
+e391875766.198064
+r1
+xGenerateDSYMFile
+x/Users/tmarrs/projects/iVote-Mobile/build/iVote-Mobile.app.dSYM
+x/Users/tmarrs/projects/iVote-Mobile/build/iVote-Mobile.app/iVote-Mobile
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection72"Generate /Users/tmarrs/projects/iVote-Mobile/build/iVote-Mobile.app.dSYMd71719b68c5bb741^78b332b68c5bb741^---0#0#0#-19%DVTDocumentLocation2@79"file://localhost/Users/tmarrs/projects/iVote-Mobile/build/iVote-Mobile.app.dSYM000000000080d041^907"GenerateDSYMFile build/iVote-Mobile.app.dSYM build/iVote-Mobile.app/iVote-Mobile    cd /Users/tmarrs/projects/iVote-Mobile    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/tmarrs/.rvm/gems/ruby-1.9.3-p194/bin:/Users/tmarrs/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/tmarrs/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/tmarrs/.rvm/bin:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/bin:/usr/share/maven/bin:/usr/local/mysql/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/sm/bin:/opt/sm/pkg/active/bin:/opt/sm/pkg/active/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/tmarrs/projects/iVote-Mobile/build/iVote-Mobile.app/iVote-Mobile -o /Users/tmarrs/projects/iVote-Mobile/build/iVote-Mobile.app.dSYM36"E3F1171F-CABD-4EE7-993C-6C8399090367-
+
+CLd /Users/tmarrs/projects/iVote-Mobile/build/iVote-Mobile.app/iVote-Mobile normal i386
+s391875765.726202
+e391875766.091109
+r1
+xLd
+x/Users/tmarrs/projects/iVote-Mobile/build/iVote-Mobile.app/iVote-Mobile
+xnormal
+xi386
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection76"Link /Users/tmarrs/projects/iVote-Mobile/build/iVote-Mobile.app/iVote-Mobilef912bab58c5bb741^875217b68c5bb741^---0#0#0#--1919"Ld build/iVote-Mobile.app/iVote-Mobile normal i386    cd /Users/tmarrs/projects/iVote-Mobile    setenv IPHONEOS_DEPLOYMENT_TARGET 5.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/tmarrs/.rvm/gems/ruby-1.9.3-p194/bin:/Users/tmarrs/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/tmarrs/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/tmarrs/.rvm/bin:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/bin:/usr/share/maven/bin:/usr/local/mysql/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/sm/bin:/opt/sm/pkg/active/bin:/opt/sm/pkg/active/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -L/Users/tmarrs/projects/iVote-Mobile/build -F/Users/tmarrs/projects/iVote-Mobile/build -filelist /Users/tmarrs/projects/iVote-Mobile/build/iVote-Mobile.build/Debug-iphonesimulator/iVote-Mobile.build/Objects-normal/i386/iVote-Mobile.LinkFileList -Xlinker -objc_abi_version -Xlinker 2 -weak_framework CoreFoundation -weak_framework UIKit -weak_framework AVFoundation -weak_framework CoreMedia -weak-lSystem -all_load -Obj-C -fobjc-link-runtime -Xlinker -no_implicit_dylibs -mios-simulator-version-min=5.0 -framework AssetsLibrary /Users/tmarrs/projects/iVote-Mobile/build/libCordova.a -framework Foundation -weak_framework UIKit -framework CoreGraphics -framework AddressBook -framework AddressBookUI -framework AudioToolbox -weak_framework AVFoundation -framework CFNetwork -framework CoreLocation -framework MediaPlayer -framework QuartzCore -framework SystemConfiguration -framework MobileCoreServices -weak_framework CoreMedia -o /Users/tmarrs/projects/iVote-Mobile/build/iVote-Mobile.app/iVote-Mobile36"7D093193-750D-4985-9CE7-6D9B755E3514-
+
+CPhaseScriptExecution "Copy www directory" /Users/tmarrs/projects/iVote-Mobile/build/iVote-Mobile.build/Debug-iphonesimulator/iVote-Mobile.build/Script-304B58A110DAC018002A0835.sh
+s391875764.205053
+e391875764.379893
+r1
+xPhaseScriptExecution
+xCopy www directory
+x/Users/tmarrs/projects/iVote-Mobile/build/iVote-Mobile.build/Debug-iphonesimulator/iVote-Mobile.build/Script-304B58A110DAC018002A0835.sh
+o
+oreal	0m0.148s
+ouser	0m0.064s
+osys	0m0.077s
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection44"Run custom shell script 'Copy www directory'9fab35b48c5bb741^a74161b48c5bb741^-42"real	0m0.148suser	0m0.064ssys	0m0.077s3(21%IDEActivityLogMessage2@14"real	0m0.148s-391875764#1#14#-0#-----2@14"user	0m0.064s-391875764#15#14#-0#-----2@13"sys	0m0.077s-391875764#29#13#-0#-----0#0#0#--20660"PhaseScriptExecution "Copy www directory" build/iVote-Mobile.build/Debug-iphonesimulator/iVote-Mobile.build/Script-304B58A110DAC018002A0835.sh    cd /Users/tmarrs/projects/iVote-Mobile    setenv ACTION build    setenv ALTERNATE_GROUP staff    setenv ALTERNATE_MODE u+w,go-w,a+rX    setenv ALTERNATE_OWNER tmarrs    setenv ALWAYS_SEARCH_USER_PATHS NO    setenv APPLE_INTERNAL_DEVELOPER_DIR /AppleInternal/Developer    setenv APPLE_INTERNAL_DIR /AppleInternal    setenv APPLE_INTERNAL_DOCUMENTATION_DIR /AppleInternal/Documentation    setenv APPLE_INTERNAL_LIBRARY_DIR /AppleInternal/Library    setenv APPLE_INTERNAL_TOOLS /AppleInternal/Developer/Tools    setenv APPLY_RULES_IN_COPY_FILES NO    setenv ARCHS i386    setenv ARCHS_STANDARD_32_BIT i386    setenv ARCHS_UNIVERSAL_IPHONE_OS i386    setenv AVAILABLE_PLATFORMS "iphonesimulator macosx iphoneos"    setenv BUILD_COMPONENTS "headers build"    setenv BUILD_DIR /Users/tmarrs/projects/iVote-Mobile/build    setenv BUILD_ROOT /Users/tmarrs/projects/iVote-Mobile/build    setenv BUILD_STYLE     setenv BUILD_VARIANTS normal    setenv BUILT_PRODUCTS_DIR /Users/tmarrs/projects/iVote-Mobile/build    setenv CACHE_ROOT /var/folders/mn/yh5h1bpx035bgj4lhp0tzm3w0000gn/C/com.apple.Xcode.501    setenv CCHROOT /var/folders/mn/yh5h1bpx035bgj4lhp0tzm3w0000gn/C/com.apple.Xcode.501    setenv CHMOD /bin/chmod    setenv CHOWN /usr/sbin/chown    setenv CLANG_ENABLE_OBJC_ARC NO    setenv CLANG_WARN_CONSTANT_CONVERSION YES    setenv CLANG_WARN_ENUM_CONVERSION YES    setenv CLANG_WARN_INT_CONVERSION YES    setenv CLANG_WARN__DUPLICATE_METHOD_MATCH YES    setenv CLASS_FILE_DIR /Users/tmarrs/projects/iVote-Mobile/build/iVote-Mobile.build/Debug-iphonesimulator/iVote-Mobile.build/JavaClasses    setenv CLEAN_PRECOMPS YES    setenv CLONE_HEADERS NO    setenv CODESIGNING_FOLDER_PATH /Users/tmarrs/projects/iVote-Mobile/build/iVote-Mobile.app    setenv COMMAND_MODE legacy    setenv COMPOSITE_SDK_DIRS /var/folders/mn/yh5h1bpx035bgj4lhp0tzm3w0000gn/C/com.apple.Xcode.501/CompositeSDKs    setenv COMPRESS_PNG_FILES YES    setenv CONFIGURATION Debug    setenv CONFIGURATION_BUILD_DIR /Users/tmarrs/projects/iVote-Mobile/build    setenv CONFIGURATION_TEMP_DIR /Users/tmarrs/projects/iVote-Mobile/build/iVote-Mobile.build/Debug-iphonesimulator    setenv CONTENTS_FOLDER_PATH iVote-Mobile.app    setenv COPYING_PRESERVES_HFS_DATA NO    setenv COPY_PHASE_STRIP NO    setenv COPY_RESOURCES_FROM_STATIC_FRAMEWORKS YES    setenv CP /bin/cp    setenv CURRENT_ARCH i386    setenv CURRENT_VARIANT normal    setenv DEAD_CODE_STRIPPING NO    setenv DEBUGGING_SYMBOLS YES    setenv DEBUG_INFORMATION_FORMAT dwarf-with-dsym    setenv DEFAULT_COMPILER com.apple.compilers.llvm.clang.1_0    setenv DEPLOYMENT_LOCATION NO    setenv DEPLOYMENT_POSTPROCESSING NO    setenv DERIVED_FILES_DIR /Users/tmarrs/projects/iVote-Mobile/build/iVote-Mobile.build/Debug-iphonesimulator/iVote-Mobile.build/DerivedSources    setenv DERIVED_FILE_DIR /Users/tmarrs/projects/iVote-Mobile/build/iVote-Mobile.build/Debug-iphonesimulator/iVote-Mobile.build/DerivedSources    setenv DERIVED_SOURCES_DIR /Users/tmarrs/projects/iVote-Mobile/build/iVote-Mobile.build/Debug-iphonesimulator/iVote-Mobile.build/DerivedSources    setenv DEVELOPER_APPLICATIONS_DIR /Applications/Xcode.app/Contents/Developer/Applications    setenv DEVELOPER_BIN_DIR /Applications/Xcode.app/Contents/Developer/usr/bin    setenv DEVELOPER_DIR /Applications/Xcode.app/Contents/Developer    setenv DEVELOPER_FRAMEWORKS_DIR /Applications/Xcode.app/Contents/Developer/Library/Frameworks    setenv DEVELOPER_FRAMEWORKS_DIR_QUOTED "\"/Applications/Xcode.app/Contents/Developer/Library/Frameworks\""    setenv DEVELOPER_LIBRARY_DIR /Applications/Xcode.app/Contents/Developer/Library    setenv DEVELOPER_SDK_DIR /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs    setenv DEVELOPER_TOOLS_DIR /Applications/Xcode.app/Contents/Developer/Tools    setenv DEVELOPER_USR_DIR /Applications/Xcode.app/Contents/Developer/usr    setenv DEVELOPMENT_LANGUAGE English    setenv DOCUMENTATION_FOLDER_PATH iVote-Mobile.app/English.lproj/Documentation    setenv DO_HEADER_SCANNING_IN_JAM NO    setenv DSTROOT /tmp/iVote-Mobile.dst    setenv DT_TOOLCHAIN_DIR /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain    setenv DWARF_DSYM_FILE_NAME iVote-Mobile.app.dSYM    setenv DWARF_DSYM_FILE_SHOULD_ACCOMPANY_PRODUCT NO    setenv DWARF_DSYM_FOLDER_PATH /Users/tmarrs/projects/iVote-Mobile/build    setenv EFFECTIVE_PLATFORM_NAME -iphonesimulator    setenv ENABLE_HEADER_DEPENDENCIES YES    setenv EXCLUDED_INSTALLSRC_SUBDIRECTORY_PATTERNS ".DS_Store .svn .git .hg CVS"    setenv EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES "*.nib *.lproj *.framework *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj"    setenv EXECUTABLES_FOLDER_PATH iVote-Mobile.app/Executables    setenv EXECUTABLE_FOLDER_PATH iVote-Mobile.app    setenv EXECUTABLE_NAME iVote-Mobile    setenv EXECUTABLE_PATH iVote-Mobile.app/iVote-Mobile    setenv FILE_LIST /Users/tmarrs/projects/iVote-Mobile/build/iVote-Mobile.build/Debug-iphonesimulator/iVote-Mobile.build/Objects/LinkFileList    setenv FIXED_FILES_DIR /Users/tmarrs/projects/iVote-Mobile/build/iVote-Mobile.build/Debug-iphonesimulator/iVote-Mobile.build/FixedFiles    setenv FRAMEWORKS_FOLDER_PATH iVote-Mobile.app/Frameworks    setenv FRAMEWORK_FLAG_PREFIX -framework    setenv FRAMEWORK_SEARCH_PATHS "\"/Users/tmarrs/projects/iVote-Mobile/build\" "    setenv FRAMEWORK_VERSION A    setenv FULL_PRODUCT_NAME iVote-Mobile.app    setenv GCC3_VERSION 3.3    setenv GCC_C_LANGUAGE_STANDARD c99    setenv GCC_DYNAMIC_NO_PIC NO    setenv GCC_INLINES_ARE_PRIVATE_EXTERN YES    setenv GCC_OBJC_LEGACY_DISPATCH YES    setenv GCC_OPTIMIZATION_LEVEL 0    setenv GCC_PFE_FILE_C_DIALECTS "c objective-c c++ objective-c++"    setenv GCC_PRECOMPILE_PREFIX_HEADER YES    setenv GCC_PREFIX_HEADER iVote-Mobile/iVote-Mobile-Prefix.pch    setenv GCC_SYMBOLS_PRIVATE_EXTERN YES    setenv GCC_THUMB_SUPPORT NO    setenv GCC_TREAT_WARNINGS_AS_ERRORS NO    setenv GCC_VERSION com.apple.compilers.llvm.clang.1_0    setenv GCC_VERSION_IDENTIFIER com_apple_compilers_llvm_clang_1_0    setenv GCC_WARN_ABOUT_RETURN_TYPE YES    setenv GCC_WARN_UNINITIALIZED_AUTOS YES    setenv GCC_WARN_UNUSED_VARIABLE YES    setenv GENERATE_MASTER_OBJECT_FILE NO    setenv GENERATE_PKGINFO_FILE YES    setenv GENERATE_PROFILING_CODE NO    setenv GID 20    setenv GROUP staff    setenv HEADERMAP_INCLUDES_FLAT_ENTRIES_FOR_TARGET_BEING_BUILT YES    setenv HEADERMAP_INCLUDES_FRAMEWORK_ENTRIES_FOR_ALL_PRODUCT_TYPES YES    setenv HEADERMAP_INCLUDES_NONPUBLIC_NONPRIVATE_HEADERS YES    setenv HEADERMAP_INCLUDES_PROJECT_HEADERS YES    setenv HEADER_SEARCH_PATHS "\"/Users/tmarrs/projects/iVote-Mobile/build/include\" \"/Users/tmarrs/projects/iVote-Mobile/build/usr/local/lib/include\" \"/Users/tmarrs/projects/iVote-Mobile/build/UninstalledProducts/include\" \"/Users/tmarrs/projects/iVote-Mobile/build\""    setenv ICONV /usr/bin/iconv    setenv INFOPLIST_EXPAND_BUILD_SETTINGS YES    setenv INFOPLIST_FILE iVote-Mobile/iVote-Mobile-Info.plist    setenv INFOPLIST_OUTPUT_FORMAT binary    setenv INFOPLIST_PATH iVote-Mobile.app/Info.plist    setenv INFOPLIST_PREPROCESS NO    setenv INFOSTRINGS_PATH iVote-Mobile.app/English.lproj/InfoPlist.strings    setenv INSTALL_DIR /tmp/iVote-Mobile.dst/Applications    setenv INSTALL_GROUP staff    setenv INSTALL_MODE_FLAG u+w,go-w,a+rX    setenv INSTALL_OWNER tmarrs    setenv INSTALL_PATH /Applications    setenv INSTALL_ROOT /tmp/iVote-Mobile.dst    setenv IPHONEOS_DEPLOYMENT_TARGET 5.0    setenv JAVAC_DEFAULT_FLAGS "-J-Xms64m -J-XX:NewSize=4M -J-Dfile.encoding=UTF8"    setenv JAVA_APP_STUB /System/Library/Frameworks/JavaVM.framework/Resources/MacOS/JavaApplicationStub    setenv JAVA_ARCHIVE_CLASSES YES    setenv JAVA_ARCHIVE_TYPE JAR    setenv JAVA_COMPILER /usr/bin/javac    setenv JAVA_FOLDER_PATH iVote-Mobile.app/Java    setenv JAVA_FRAMEWORK_RESOURCES_DIRS Resources    setenv JAVA_JAR_FLAGS cv    setenv JAVA_SOURCE_SUBDIR .    setenv JAVA_USE_DEPENDENCIES YES    setenv JAVA_ZIP_FLAGS -urg    setenv JIKES_DEFAULT_FLAGS "+E +OLDCSO"    setenv KEEP_PRIVATE_EXTERNS NO    setenv LD_GENERATE_MAP_FILE NO    setenv LD_MAP_FILE_PATH /Users/tmarrs/projects/iVote-Mobile/build/iVote-Mobile.build/Debug-iphonesimulator/iVote-Mobile.build/iVote-Mobile-LinkMap-normal-i386.txt    setenv LD_NO_PIE NO    setenv LEGACY_DEVELOPER_DIR /Applications/Xcode.app/Contents/PlugIns/Xcode3Core.ideplugin/Contents/SharedSupport/Developer    setenv LEX lex    setenv LIBRARY_FLAG_NOSPACE YES    setenv LIBRARY_FLAG_PREFIX -l    setenv LIBRARY_SEARCH_PATHS "\"/Users/tmarrs/projects/iVote-Mobile/build\" "    setenv LINKER_DISPLAYS_MANGLED_NAMES NO    setenv LINK_FILE_LIST_normal_i386 /Users/tmarrs/projects/iVote-Mobile/build/iVote-Mobile.build/Debug-iphonesimulator/iVote-Mobile.build/Objects-normal/i386/iVote-Mobile.LinkFileList    setenv LINK_WITH_STANDARD_LIBRARIES YES    setenv LOCALIZED_RESOURCES_FOLDER_PATH iVote-Mobile.app/English.lproj    setenv LOCAL_ADMIN_APPS_DIR /Applications/Utilities    setenv LOCAL_APPS_DIR /Applications    setenv LOCAL_DEVELOPER_DIR /Library/Developer    setenv LOCAL_LIBRARY_DIR /Library    setenv MACH_O_TYPE mh_execute    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv MAC_OS_X_PRODUCT_BUILD_VERSION 12D78    setenv MAC_OS_X_VERSION_ACTUAL 1083    setenv MAC_OS_X_VERSION_MAJOR 1080    setenv MAC_OS_X_VERSION_MINOR 0803    setenv NATIVE_ARCH i386    setenv NATIVE_ARCH_32_BIT i386    setenv NATIVE_ARCH_64_BIT x86_64    setenv NATIVE_ARCH_ACTUAL x86_64    setenv NO_COMMON YES    setenv OBJC_ABI_VERSION 2    setenv OBJECT_FILE_DIR /Users/tmarrs/projects/iVote-Mobile/build/iVote-Mobile.build/Debug-iphonesimulator/iVote-Mobile.build/Objects    setenv OBJECT_FILE_DIR_normal /Users/tmarrs/projects/iVote-Mobile/build/iVote-Mobile.build/Debug-iphonesimulator/iVote-Mobile.build/Objects-normal    setenv OBJROOT /Users/tmarrs/projects/iVote-Mobile/build    setenv ONLY_ACTIVE_ARCH NO    setenv OPTIMIZATION_LEVEL 0    setenv OS MACOS    setenv OSAC /usr/bin/osacompile    setenv OTHER_LDFLAGS "-weak_framework CoreFoundation -weak_framework UIKit -weak_framework AVFoundation -weak_framework CoreMedia -weak-lSystem -all_load -Obj-C"    setenv PACKAGE_TYPE com.apple.package-type.wrapper.application    setenv PASCAL_STRINGS YES    setenv PATH "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin:/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/libexec:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/local/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/usr/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/usr/local/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/local/bin:/Applications/Xcode.app/Contents/Developer/Tools:/Users/tmarrs/.rvm/gems/ruby-1.9.3-p194/bin:/Users/tmarrs/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/tmarrs/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/tmarrs/.rvm/bin:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/bin:/usr/share/maven/bin:/usr/local/mysql/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/sm/bin:/opt/sm/pkg/active/bin:/opt/sm/pkg/active/sbin"    setenv PATH_PREFIXES_EXCLUDED_FROM_HEADER_DEPENDENCIES "/usr/include /usr/local/include /System/Library/Frameworks /System/Library/PrivateFrameworks /Applications/Xcode.app/Contents/Developer/Headers /Applications/Xcode.app/Contents/Developer/SDKs /Applications/Xcode.app/Contents/Developer/Platforms"    setenv PBDEVELOPMENTPLIST_PATH iVote-Mobile.app/pbdevelopment.plist    setenv PFE_FILE_C_DIALECTS objective-c    setenv PKGINFO_FILE_PATH /Users/tmarrs/projects/iVote-Mobile/build/iVote-Mobile.build/Debug-iphonesimulator/iVote-Mobile.build/PkgInfo    setenv PKGINFO_PATH iVote-Mobile.app/PkgInfo    setenv PLATFORM_DEVELOPER_APPLICATIONS_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Applications    setenv PLATFORM_DEVELOPER_BIN_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin    setenv PLATFORM_DEVELOPER_LIBRARY_DIR /Applications/Xcode.app/Contents/PlugIns/Xcode3Core.ideplugin/Contents/SharedSupport/Developer/Library    setenv PLATFORM_DEVELOPER_SDK_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs    setenv PLATFORM_DEVELOPER_TOOLS_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Tools    setenv PLATFORM_DEVELOPER_USR_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr    setenv PLATFORM_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform    setenv PLATFORM_NAME iphonesimulator    setenv PLATFORM_PREFERRED_ARCH i386    setenv PLATFORM_PRODUCT_BUILD_VERSION 10B141    setenv PLATFORM_VERSION_AVAILABILITY_H_FORMAT 60100    setenv PLIST_FILE_OUTPUT_FORMAT binary    setenv PLUGINS_FOLDER_PATH iVote-Mobile.app/PlugIns    setenv PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR YES    setenv PRECOMP_DESTINATION_DIR /Users/tmarrs/projects/iVote-Mobile/build/iVote-Mobile.build/Debug-iphonesimulator/iVote-Mobile.build/PrefixHeaders    setenv PRESERVE_DEAD_CODE_INITS_AND_TERMS NO    setenv PRIVATE_HEADERS_FOLDER_PATH iVote-Mobile.app/PrivateHeaders    setenv PRODUCT_NAME iVote-Mobile    setenv PRODUCT_SETTINGS_PATH /Users/tmarrs/projects/iVote-Mobile/iVote-Mobile/iVote-Mobile-Info.plist    setenv PRODUCT_TYPE com.apple.product-type.application    setenv PROFILING_CODE NO    setenv PROJECT iVote-Mobile    setenv PROJECT_DERIVED_FILE_DIR /Users/tmarrs/projects/iVote-Mobile/build/iVote-Mobile.build/DerivedSources    setenv PROJECT_DIR /Users/tmarrs/projects/iVote-Mobile    setenv PROJECT_FILE_PATH /Users/tmarrs/projects/iVote-Mobile/iVote-Mobile.xcodeproj    setenv PROJECT_NAME iVote-Mobile    setenv PROJECT_TEMP_DIR /Users/tmarrs/projects/iVote-Mobile/build/iVote-Mobile.build    setenv PROJECT_TEMP_ROOT /Users/tmarrs/projects/iVote-Mobile/build    setenv PUBLIC_HEADERS_FOLDER_PATH iVote-Mobile.app/Headers    setenv RECURSIVE_SEARCH_PATHS_FOLLOW_SYMLINKS YES    setenv REMOVE_CVS_FROM_RESOURCES YES    setenv REMOVE_GIT_FROM_RESOURCES YES    setenv REMOVE_HG_FROM_RESOURCES YES    setenv REMOVE_SVN_FROM_RESOURCES YES    setenv REZ_COLLECTOR_DIR /Users/tmarrs/projects/iVote-Mobile/build/iVote-Mobile.build/Debug-iphonesimulator/iVote-Mobile.build/ResourceManagerResources    setenv REZ_OBJECTS_DIR /Users/tmarrs/projects/iVote-Mobile/build/iVote-Mobile.build/Debug-iphonesimulator/iVote-Mobile.build/ResourceManagerResources/Objects    setenv REZ_SEARCH_PATHS "\"/Users/tmarrs/projects/iVote-Mobile/build\" "    setenv RUN_CLANG_STATIC_ANALYZER NO    setenv SCAN_ALL_SOURCE_FILES_FOR_INCLUDES NO    setenv SCRIPTS_FOLDER_PATH iVote-Mobile.app/Scripts    setenv SCRIPT_INPUT_FILE_COUNT 0    setenv SCRIPT_OUTPUT_FILE_COUNT 0    setenv SDKROOT /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk    setenv SDK_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk    setenv SDK_NAME iphonesimulator6.1    setenv SDK_PRODUCT_BUILD_VERSION 10B141    setenv SED /usr/bin/sed    setenv SEPARATE_STRIP NO    setenv SEPARATE_SYMBOL_EDIT NO    setenv SET_DIR_MODE_OWNER_GROUP YES    setenv SET_FILE_MODE_OWNER_GROUP NO    setenv SHALLOW_BUNDLE YES    setenv SHARED_DERIVED_FILE_DIR /Users/tmarrs/projects/iVote-Mobile/build/DerivedSources    setenv SHARED_FRAMEWORKS_FOLDER_PATH iVote-Mobile.app/SharedFrameworks    setenv SHARED_PRECOMPS_DIR /var/folders/mn/yh5h1bpx035bgj4lhp0tzm3w0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders    setenv SHARED_SUPPORT_FOLDER_PATH iVote-Mobile.app/SharedSupport    setenv SKIP_INSTALL NO    setenv SOURCE_ROOT /Users/tmarrs/projects/iVote-Mobile    setenv SRCROOT /Users/tmarrs/projects/iVote-Mobile    setenv STRINGS_FILE_OUTPUT_ENCODING binary    setenv STRIP_INSTALLED_PRODUCT YES    setenv STRIP_STYLE all    setenv SUPPORTED_DEVICE_FAMILIES "1 2"    setenv SUPPORTED_PLATFORMS "iphonesimulator iphoneos"    setenv SYMROOT /Users/tmarrs/projects/iVote-Mobile/build    setenv SYSTEM_ADMIN_APPS_DIR /Applications/Utilities    setenv SYSTEM_APPS_DIR /Applications    setenv SYSTEM_CORE_SERVICES_DIR /System/Library/CoreServices    setenv SYSTEM_DEMOS_DIR /Applications/Extras    setenv SYSTEM_DEVELOPER_APPS_DIR /Applications/Xcode.app/Contents/Developer/Applications    setenv SYSTEM_DEVELOPER_BIN_DIR /Applications/Xcode.app/Contents/Developer/usr/bin    setenv SYSTEM_DEVELOPER_DEMOS_DIR "/Applications/Xcode.app/Contents/Developer/Applications/Utilities/Built Examples"    setenv SYSTEM_DEVELOPER_DIR /Applications/Xcode.app/Contents/Developer    setenv SYSTEM_DEVELOPER_DOC_DIR "/Applications/Xcode.app/Contents/Developer/ADC Reference Library"    setenv SYSTEM_DEVELOPER_GRAPHICS_TOOLS_DIR "/Applications/Xcode.app/Contents/Developer/Applications/Graphics Tools"    setenv SYSTEM_DEVELOPER_JAVA_TOOLS_DIR "/Applications/Xcode.app/Contents/Developer/Applications/Java Tools"    setenv SYSTEM_DEVELOPER_PERFORMANCE_TOOLS_DIR "/Applications/Xcode.app/Contents/Developer/Applications/Performance Tools"    setenv SYSTEM_DEVELOPER_RELEASENOTES_DIR "/Applications/Xcode.app/Contents/Developer/ADC Reference Library/releasenotes"    setenv SYSTEM_DEVELOPER_TOOLS /Applications/Xcode.app/Contents/Developer/Tools    setenv SYSTEM_DEVELOPER_TOOLS_DOC_DIR "/Applications/Xcode.app/Contents/Developer/ADC Reference Library/documentation/DeveloperTools"    setenv SYSTEM_DEVELOPER_TOOLS_RELEASENOTES_DIR "/Applications/Xcode.app/Contents/Developer/ADC Reference Library/releasenotes/DeveloperTools"    setenv SYSTEM_DEVELOPER_USR_DIR /Applications/Xcode.app/Contents/Developer/usr    setenv SYSTEM_DEVELOPER_UTILITIES_DIR /Applications/Xcode.app/Contents/Developer/Applications/Utilities    setenv SYSTEM_DOCUMENTATION_DIR /Library/Documentation    setenv SYSTEM_LIBRARY_DIR /System/Library    setenv TARGETED_DEVICE_FAMILY 1,2    setenv TARGETNAME iVote-Mobile    setenv TARGET_BUILD_DIR /Users/tmarrs/projects/iVote-Mobile/build    setenv TARGET_NAME iVote-Mobile    setenv TARGET_TEMP_DIR /Users/tmarrs/projects/iVote-Mobile/build/iVote-Mobile.build/Debug-iphonesimulator/iVote-Mobile.build    setenv TEMP_DIR /Users/tmarrs/projects/iVote-Mobile/build/iVote-Mobile.build/Debug-iphonesimulator/iVote-Mobile.build    setenv TEMP_FILES_DIR /Users/tmarrs/projects/iVote-Mobile/build/iVote-Mobile.build/Debug-iphonesimulator/iVote-Mobile.build    setenv TEMP_FILE_DIR /Users/tmarrs/projects/iVote-Mobile/build/iVote-Mobile.build/Debug-iphonesimulator/iVote-Mobile.build    setenv TEMP_ROOT /Users/tmarrs/projects/iVote-Mobile/build    setenv TEST_AFTER_BUILD NO    setenv TOOLCHAINS com.apple.dt.toolchain.XcodeDefault    setenv UID 501    setenv UNLOCALIZED_RESOURCES_FOLDER_PATH iVote-Mobile.app    setenv UNSTRIPPED_PRODUCT NO    setenv USER tmarrs    setenv USER_APPS_DIR /Users/tmarrs/Applications    setenv USER_LIBRARY_DIR /Users/tmarrs/Library    setenv USE_DYNAMIC_NO_PIC YES    setenv USE_HEADERMAP YES    setenv USE_HEADER_SYMLINKS NO    setenv VALIDATE_PRODUCT NO    setenv VALID_ARCHS i386    setenv VERBOSE_PBXCP NO    setenv VERSIONPLIST_PATH iVote-Mobile.app/version.plist    setenv VERSION_INFO_BUILDER tmarrs    setenv VERSION_INFO_FILE iVote-Mobile_vers.c    setenv VERSION_INFO_STRING "\"@(#)PROGRAM:iVote-Mobile  PROJECT:iVote-Mobile-\""    setenv WRAPPER_EXTENSION app    setenv WRAPPER_NAME iVote-Mobile.app    setenv WRAPPER_SUFFIX .app    setenv XCODE_APP_SUPPORT_DIR /Applications/Xcode.app/Contents/Developer/Library/Xcode    setenv XCODE_PRODUCT_BUILD_VERSION 4H1003    setenv XCODE_VERSION_ACTUAL 0462    setenv XCODE_VERSION_MAJOR 0400    setenv XCODE_VERSION_MINOR 0460    setenv YACC yacc    /bin/sh -c /Users/tmarrs/projects/iVote-Mobile/build/iVote-Mobile.build/Debug-iphonesimulator/iVote-Mobile.build/Script-304B58A110DAC018002A0835.sh36"1DCB7315-3A45-4CDE-83AB-1514E7356507-
+
+CProcessInfoPlistFile /Users/tmarrs/projects/iVote-Mobile/build/iVote-Mobile.app/Info.plist iVote-Mobile/iVote-Mobile-Info.plist
+s391875764.193927
+e391875764.197067
+r1
+xProcessInfoPlistFile
+x/Users/tmarrs/projects/iVote-Mobile/build/iVote-Mobile.app/Info.plist
+xiVote-Mobile/iVote-Mobile-Info.plist
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection44"Process iVote-Mobile/iVote-Mobile-Info.plistb2be31b48c5bb741^b97232b48c5bb741^---0#0#0#-19%DVTDocumentLocation2@88"file://localhost/Users/tmarrs/projects/iVote-Mobile/iVote-Mobile/iVote-Mobile-Info.plist0000000000000000^959"ProcessInfoPlistFile build/iVote-Mobile.app/Info.plist iVote-Mobile/iVote-Mobile-Info.plist    cd /Users/tmarrs/projects/iVote-Mobile    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/tmarrs/.rvm/gems/ruby-1.9.3-p194/bin:/Users/tmarrs/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/tmarrs/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/tmarrs/.rvm/bin:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/bin:/usr/share/maven/bin:/usr/local/mysql/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/sm/bin:/opt/sm/pkg/active/bin:/opt/sm/pkg/active/sbin"    builtin-infoPlistUtility iVote-Mobile/iVote-Mobile-Info.plist -genpkginfo /Users/tmarrs/projects/iVote-Mobile/build/iVote-Mobile.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/tmarrs/projects/iVote-Mobile/build/iVote-Mobile.app/Info.plist36"9F3D5142-684D-4DA3-980B-444C6B3539BA-
+
+CProcessPCH /var/folders/mn/yh5h1bpx035bgj4lhp0tzm3w0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/iVote-Mobile-Prefix-fgmijxrhjmwnyggnfcwcsrzomzog/iVote-Mobile-Prefix.pch.pth iVote-Mobile/iVote-Mobile-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s391875765.360980
+e391875765.646355
+r1
+xProcessPCH
+x/var/folders/mn/yh5h1bpx035bgj4lhp0tzm3w0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/iVote-Mobile-Prefix-fgmijxrhjmwnyggnfcwcsrzomzog/iVote-Mobile-Prefix.pch.pth
+xiVote-Mobile/iVote-Mobile-Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection47"Precompile iVote-Mobile/iVote-Mobile-Prefix.pch328f5cb58c5bb741^ff76a5b58c5bb741^---0#0#0#-19%DVTDocumentLocation2@88"file://localhost/Users/tmarrs/projects/iVote-Mobile/iVote-Mobile/iVote-Mobile-Prefix.pch0000000000000000^3767"ProcessPCH /var/folders/mn/yh5h1bpx035bgj4lhp0tzm3w0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/iVote-Mobile-Prefix-fgmijxrhjmwnyggnfcwcsrzomzog/iVote-Mobile-Prefix.pch.pth iVote-Mobile/iVote-Mobile-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/tmarrs/projects/iVote-Mobile    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/tmarrs/.rvm/gems/ruby-1.9.3-p194/bin:/Users/tmarrs/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/tmarrs/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/tmarrs/.rvm/bin:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/bin:/usr/share/maven/bin:/usr/local/mysql/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/sm/bin:/opt/sm/pkg/active/bin:/opt/sm/pkg/active/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Users/tmarrs/projects/iVote-Mobile/build/iVote-Mobile.build/Debug-iphonesimulator/iVote-Mobile.build/iVote-Mobile-generated-files.hmap -I/Users/tmarrs/projects/iVote-Mobile/build/iVote-Mobile.build/Debug-iphonesimulator/iVote-Mobile.build/iVote-Mobile-own-target-headers.hmap -I/Users/tmarrs/projects/iVote-Mobile/build/iVote-Mobile.build/Debug-iphonesimulator/iVote-Mobile.build/iVote-Mobile-all-target-headers.hmap -iquote /Users/tmarrs/projects/iVote-Mobile/build/iVote-Mobile.build/Debug-iphonesimulator/iVote-Mobile.build/iVote-Mobile-project-headers.hmap -I/Users/tmarrs/projects/iVote-Mobile/build/include -I/Users/tmarrs/projects/iVote-Mobile/build/usr/local/lib/include -I/Users/tmarrs/projects/iVote-Mobile/build/UninstalledProducts/include -I/Users/tmarrs/projects/iVote-Mobile/build -I/Users/tmarrs/projects/iVote-Mobile/build/iVote-Mobile.build/Debug-iphonesimulator/iVote-Mobile.build/DerivedSources/i386 -I/Users/tmarrs/projects/iVote-Mobile/build/iVote-Mobile.build/Debug-iphonesimulator/iVote-Mobile.build/DerivedSources -F/Users/tmarrs/projects/iVote-Mobile/build --serialize-diagnostics /var/folders/mn/yh5h1bpx035bgj4lhp0tzm3w0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/iVote-Mobile-Prefix-fgmijxrhjmwnyggnfcwcsrzomzog/iVote-Mobile-Prefix.pch.dia -c /Users/tmarrs/projects/iVote-Mobile/iVote-Mobile/iVote-Mobile-Prefix.pch -o /var/folders/mn/yh5h1bpx035bgj4lhp0tzm3w0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/iVote-Mobile-Prefix-fgmijxrhjmwnyggnfcwcsrzomzog/iVote-Mobile-Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/mn/yh5h1bpx035bgj4lhp0tzm3w0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/iVote-Mobile-Prefix-fgmijxrhjmwnyggnfcwcsrzomzog/iVote-Mobile-Prefix.pch.d36"3F4064EC-9474-4F10-BCBE-F23AB895DBFB-
+
+CTouch /Users/tmarrs/projects/iVote-Mobile/build/iVote-Mobile.app
+s391875766.206141
+e391875766.212476
+r1
+xTouch
+x/Users/tmarrs/projects/iVote-Mobile/build/iVote-Mobile.app
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection64"Touch /Users/tmarrs/projects/iVote-Mobile/build/iVote-Mobile.appace334b68c5bb741^e56436b68c5bb741^---0#0#0#--697"Touch build/iVote-Mobile.app    cd /Users/tmarrs/projects/iVote-Mobile    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/tmarrs/.rvm/gems/ruby-1.9.3-p194/bin:/Users/tmarrs/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/tmarrs/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/tmarrs/.rvm/bin:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/bin:/usr/share/maven/bin:/usr/local/mysql/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/sm/bin:/opt/sm/pkg/active/bin:/opt/sm/pkg/active/sbin"    /usr/bin/touch -c /Users/tmarrs/projects/iVote-Mobile/build/iVote-Mobile.app36"9AA403E2-1B22-4E52-AE75-2A660DA10C20-
+
